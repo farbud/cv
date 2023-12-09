@@ -1,10 +1,24 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
+<style>
+    img {
+        width: 800x;
+        height: 500px;
+    }
+</style>
+
+<head>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+</head>
 
 <body>
 
     <h1>Hello World!</h1>
-    <p>Welcome to my first Django project!</p>
+
+    <img src="{% static 'images/farbud.jpg' %}">
+
 
 </body>
 
